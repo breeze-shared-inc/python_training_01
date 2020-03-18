@@ -33,6 +33,3 @@ position.pop()
 
 print(name_list)
 print(position)
-
-r = range(10)
-print(r[0:3])

@@ -22,19 +22,37 @@
 1.保守しやすい（ソースコードが読みやすい）、コンピュータが解析する時に中身が特定しやすい
 2.速度(初めから片付けされているので、実行と同時に型付けするより早い)
 
+型一覧
+整数型：
+浮動小数点型：
+文字列型： ""で囲う
+真偽型： True or False で表現
+
 リスト型：データの集合、データの追加、削除が可能
+　　　　　[]と書く
 タプル型：データの集合、データの追加、削除が不可能
+        ()と書く
 辞書型：リスト型と挙動が一緒だが、要素へのアクセスは一意の値で行う
+        {}と書く
+
+練習！：下記を出力させよう！
+<class 'int'>
+<class 'float'>
+<class 'str'>
+<class 'bool'>
+<class 'list'>
+<class 'tuple'>
+<class 'dict'>
 
 """
 
-hensu_int = 17 #数字
-hensu_float = 1.7 #小数点(浮動小数点)
-hensu_str = "HelloWorld" #文字列
-hensu_bool = True #真偽
-hensu_list = [] #リスト
-hensu_tuple = () #配列
-hensu_dict = {} #辞書型
+hensu_int =  #数字
+hensu_float =  #小数点(浮動小数点)
+hensu_str =  #文字列
+hensu_bool =  #真偽
+hensu_list =  #リスト
+hensu_tuple =  #配列
+hensu_dict =  #辞書型
 
 print(type(hensu_int))
 print(type(hensu_float))
@@ -43,13 +61,3 @@ print(type(hensu_bool))
 print(type(hensu_list))
 print(type(hensu_tuple))
 print(type(hensu_dict))
-
-""" 下記が出力されればクリア
-<class 'int'>
-<class 'float'>
-<class 'str'>
-<class 'bool'>
-<class 'list'>
-<class 'tuple'>
-<class 'dict'>
-"""
