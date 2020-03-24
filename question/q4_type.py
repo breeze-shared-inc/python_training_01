@@ -49,10 +49,10 @@
 hensu_int =  #数字
 hensu_float =  #小数点(浮動小数点)
 hensu_str =  #文字列
-hensu_bool =  #真偽
-hensu_list =  #リスト
-hensu_tuple =  #配列
-hensu_dict =  #辞書型
+hensu_bool = [] #真偽
+hensu_list = {} #リスト
+hensu_tuple = () #配列
+hensu_dict = {} #辞書型
 
 print(type(hensu_int))
 print(type(hensu_float))

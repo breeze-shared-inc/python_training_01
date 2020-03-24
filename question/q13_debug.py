@@ -51,7 +51,7 @@ def check():
                 print("{}さんの".format(one[profile]))
             if profile == "birth":
                 print("誕生日は{}。".format(one[profile]))
-            if profile == "umare":
+            if profile == "born":
                 print("出身地は{}。".format(one[profile]))
 
 
