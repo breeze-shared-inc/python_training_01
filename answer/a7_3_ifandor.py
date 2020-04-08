@@ -9,16 +9,26 @@ if 論理式A and 論理式B :
 if 論理式A or 論理式B :
     Trueの時の処理
 
+問題：以下を出力させよう
+
+sugakuが60点以上かつkokugoが60点以上
+すばらしい
+
+sugakuまたはkokugoが60点以上で
+おしい
+
+それ以外は
+残念！
+
 
 """
-score = 60
-score2 = 60
 
-if score >= 60 and score2 >= 60:
-    print("全て合格！")
+sugaku = 67
+kokugo = 68
 
-elif score >= 60 and score2 < 60 or score < 60 and score2 >= 60:
-    print("ひとつ合格！")
-
+if sugaku >= 60 or kokugo >= 60:
+    print("おしい")
+elif sugaku >= 60 and kokugo >= 60:
+    print("すばらしい")
 else:
     print("残念！")

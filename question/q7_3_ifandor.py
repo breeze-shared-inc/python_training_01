@@ -12,16 +12,13 @@ if 論理式A or 論理式B :
 
 """
 
-# sugakuが60点以上かつkokugoが60点以上で「すばらしい」
-# sugakuまたはkokugoが60点以上で「おしい」　
-# それ以外は「残念！」
 
 sugaku = 67
 kokugo = 68
 
-if sugaku >= 60 or kokugo >= 60:
+# sugakuが60点以上かつkokugoが60点以上で「すばらしい」
     print("おしい")
-elif sugaku >= 60 and kokugo >= 60:
+# sugakuまたはkokugoが60点以上で「おしい」　
     print("すばらしい")
-else:
+# それ以外は「残念！」
     print("残念！")
