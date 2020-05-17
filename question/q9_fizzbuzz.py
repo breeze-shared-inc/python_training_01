@@ -34,7 +34,7 @@ range(1,51)
     # 倍数が5かつ3でないなら、buzz
 
         print("buzz")
-    # 倍数が5かつ5ならfizzbuzz
+    # 倍数が3かつ5ならfizzbuzz
 
         print("fizzbuzz")
     # いずれでもない場合は数字

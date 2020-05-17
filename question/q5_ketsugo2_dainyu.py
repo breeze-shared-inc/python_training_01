@@ -33,21 +33,31 @@ print(tanaka)
 
 
 問題：下記を出力させよう
-===別のやり方1===
-佐藤秀雄
-===別のやり方2===
-鈴木三郎
+次の内容を結合代入を用いて出力させる
+山田 370
+鈴木 350
+日向 325
+田中 330
+
+制限事項：
+print関数の使用は1度のみ
 
 """
-print("===別のやり方1===")
-sato = "佐藤"
-hideo = "秀雄"
-sato = #この続きを完成させてください
-print(sato)
 
-print("===別のやり方2===")
+# プログラミング言語
+result = "テスト結果\n\n"
 
+yamada = "山田"
+yamada_s = "370"
 suzuki = "鈴木"
-saburo = "三郎"
-suzuki #結合代入演算子を使用してください。
-print(suzuki)
+suzuki_s = "350"
+hyuga = "日向"
+hyuga_s = "325"
+tanaka = "田中"
+tanaka_s = "330"
+space = " "
+kaigyo = "\n"
+
+
+
+print(result)
