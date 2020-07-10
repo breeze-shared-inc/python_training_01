@@ -6,7 +6,7 @@
 for 変数名 in シーケンス型(String | range(1..n) | list | Tuple | dict):
     実行文
 <シーケンス型とは>
-複数の要素をまとめて扱える方のことを差す
+複数の要素をまとめて扱える型のことを差す
 具体的には
 String、Range、list、Tuple、dict型を指します
 list,Tuple,dict型は詳しくは10章で行ないます。

@@ -5,7 +5,8 @@
 Pythonでは配列のことを
 list形式
 tupple形式
-の2種類を差します。
+dict形式
+の3種類を差します。
 
 <データベース>
 概念でもあり、ソフトウェア（MySQL、Oracle、PostgreSQL、SQL Server、Access、）
